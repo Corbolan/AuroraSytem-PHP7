@@ -1,0 +1,195 @@
+/* Desktop CSS*/
+body{
+	background-color:#000;}
+
+
+nav{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:gray;
+	color:white;
+	width:100%;
+	justify-content:end;
+	height: auto;
+}
+
+nav a{
+	text-align:right;
+	padding-right:2%;
+	text-decoration:none;
+}
+#menu-sup{
+	justify-content:flex-end;}
+a:link{
+	color:white;
+}
+a:hover{
+	opacity:0.8;
+}
+a:visited{
+	color:#000;
+}
+#cabecalho{
+	background-color:#333;
+	color: #FFF;
+	padding-bottom:40px;
+}	
+
+#logotipo {
+	display:flex;
+	flex-wrap:wrap;
+	float: left;
+	display:flex;
+	flex-wrap:wrap;
+}
+#logotipo img{
+	width: 50%;
+	height: 50px;}
+#contato{clear:both;
+	margin-left:1%;
+	display:flex;
+	flex:flex-wrap;
+	}
+#idpesquisa{
+	font-size:12px;
+	color:white;
+	font-family:verdana;
+	font-weight:bold;
+	float:right;
+	margin-bottom:200px;
+	margin-right:1%;}
+
+
+
+
+
+
+
+
+#corpo{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:box;
+	}
+.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:50%;
+		padding-top:3%;
+		padding-bottom:3%;}
+
+#frmlogin{
+	text-align:center;
+	color:#FFF
+}
+#frmlogin input{
+	margin-top:2%;
+	color:#000}
+#txtuser{
+	text-align:center;
+	background-color:#FF9}
+#txtuser:focus{
+background-color:#FFC
+	}
+#txtpass{
+		text-align:center;
+	background-color:#FF9
+	}
+#txtpass:focus{
+	background-color:#FFC
+	}
+	
+/* Mobile CSS*/
+
+@media ( max-width: 1000px ) {
+.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:50%;
+		padding-top:3%;
+		padding-bottom:3%;}
+	
+}
+
+
+
+
+@media ( max-width: 835px ) {
+.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:60%;
+		padding-top:3%;
+		padding-bottom:3%;}
+	
+}
+
+@media ( max-width: 500px ) {
+	body{
+	background-color:blue;}
+	
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:110%;
+		padding-top:3%;
+		padding-bottom:3%;}}
+
+@media ( max-width: 450px ) {
+	body{
+	background-color:red;}
+	
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:120%;
+		padding-top:3%;
+		padding-bottom:3%;}}
+
+
+
+@media ( max-width: 350px ) {
+	body{
+	background-color:#fff;}
+	
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:400%;
+		padding-top:3%;
+		padding-bottom:3%;}
+
+#frmlogin{
+	text-align:center;
+	color:#FFF
+}
+#frmlogin input{
+	margin-top:2%;
+	color:#000}
+#txtuser{
+	text-align:center;
+	background-color:#FF9}
+#txtuser:focus{
+background-color:#FFC
+	}
+#txtpass{
+		text-align:center;
+	background-color:#FF9
+	}
+#txtpass:focus{
+	background-color:#FFC
+	}
+	
+}

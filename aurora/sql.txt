@@ -1,0 +1,84 @@
+create database db_inventory;
+
+drop database db_inventory;
+
+use db_inventory;
+
+create table usuario(
+
+idusuario serial,
+nome varchar(20),
+senha varchar(20),
+primary key(idusuario)
+);
+
+select * from usuario;
+insert into usuario(nome,senha) values ('teste','teste');
+
+create table produtos(
+
+idproduto serial,
+idfornecedor integer(4),
+descricao varchar(20),
+quantidade int,
+validade varchar(10),
+preco_tabela double,
+primary key(idproduto)
+
+);
+
+select * from produtos;
+drop table produtos;
+
+describe produtos;
+
+
+
+describe fornecedor;
+
+
+create table fornecedor(
+
+idfornecedor int auto_increment,
+nome varchar(20),
+cnpj varchar(20),
+endereco varchar(200),
+primary key(idfornecedor)
+);
+
+select * from fornecedor;
+
+drop table fornecedor;
+
+create table estoque(
+idestoque serial,
+idproduto int,
+qtd int,
+validade date,
+prc_tabela double,
+primary key(idestoque)
+);
+
+select * from estoque;
+
+drop table estoque;
+
+create table usuario(
+
+idusuario serial,
+nome varchar(20),
+senha varchar(20),
+primary key(idusuario)
+);
+
+describe usuario;
+
+select * from usuario;
+
+select * from usuario where nome="teste";
+
+select * from produtos;
+
+
+
+describe db_inventory;

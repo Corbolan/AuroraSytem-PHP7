@@ -1,0 +1,211 @@
+/* Desktop CSS*/
+body{
+	background-color:#333;}
+#container{
+	background-color:#fff;}
+
+nav{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:gray;
+	color:white;
+	justify-content:end;
+	height: auto;
+	background-image:url(image/nav.jpg);
+}
+
+nav a{
+	text-align:right;
+	padding-right:2%;
+	text-decoration:none;
+}
+#menu-sup{
+	justify-content:flex-end;}
+a:link{
+	color:white;
+}
+a:hover{
+	opacity:0.8;
+}
+a:visited{
+	color:#000;
+}
+#cabecalho{
+	background-color:#333;
+	background-image:url(image/pesquisa.png);
+	color: #FFF;
+	padding-bottom:70px;
+}	
+
+#logotipo {
+	display:flex;
+	flex-wrap:wrap;
+	float: left;
+	display:flex;
+	flex-wrap:wrap;
+}
+#logotipo img{
+	width: 50%;
+	height: 50px;}
+#contato{
+	/*clear:both;*/
+	margin-left:1%;
+	display:flex;
+	flex:flex-wrap;
+	clear: both;
+	}
+#idpesquisa{
+	float:right;
+	font-size:12px;
+	color:#F60;
+	font-family:verdana;
+	font-weight:bold;
+	float:left;
+	position: absolute;
+	left: 930px;
+	top: 31px;
+	margin-left:35%;
+}
+.campo{
+		background-color:#FFC;
+		font-style:italic;
+		font-weight:bold;
+		}
+
+
+
+
+
+
+
+#corpo{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:box;
+	}
+.login{
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	box-shadow:7px 7px 10px  gray;
+	background-color:#666;
+	width:400px;
+	height:90px;
+	margin-top:120px;
+	margin-left:38%;
+	padding-top:3%;
+	padding-bottom:4%;
+	background-image:url(image/index-login.jpg);
+	left: 21px;
+	top: 17px;
+}
+
+#frmlogin{
+	text-align:center;
+	color:#FFF;
+	margin-bottom:30%;
+	padding-top:9%;
+}
+#frmlogin input{
+	margin-top:3%;
+	color:#000}
+#txtuser{
+	margin-left:3%;
+	text-align:center;
+	background-color:#FF9;}
+#txtuser:focus{
+background-color:#FFC
+	}
+#txtpass{
+	text-align:center;
+	background-color:#FF9;
+	margin-left:10px;
+	}
+#txtpass:focus{
+	background-color:#FFC
+	}
+#buscar{
+	margin-top:-15%;}
+#rodape{
+	background-color:#333;
+	background-image:url(image/nav.png);
+	color:white;
+	text-align:center;
+	margin-top:400px;
+	padding-top:2%;
+	padding-bottom:1%;
+	}
+
+/* Mobile CSS*/
+
+@media ( max-width: 1000px ) {
+.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:50%;
+		padding-top:3%;
+		padding-bottom:3%;}
+		
+		
+		#txtpass{
+	text-align:center;
+	background-color:#FF9;
+	margin-left:0px;
+	}
+	
+}
+
+
+
+
+@media ( max-width: 835px ) {
+.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:80%;
+		padding-top:3%;
+		padding-bottom:3%;}
+	
+}
+
+@media ( max-width: 500px ) {
+
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:100%;
+		padding-top:3%;
+		padding-bottom:3%;}}
+
+@media ( max-width: 400px ) {
+
+	
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:320%;
+		padding-top:3%;
+		padding-bottom:3%;}}
+
+
+
+@media ( max-width: 350px ) {
+
+	.login{ 
+		
+		background-color:#666;
+		width:200pt;
+		margin-top:200px;
+		margin-left:450%;
+		padding-top:3%;
+		padding-bottom:3%;}
+
+}
